@@ -1,0 +1,43 @@
+{
+  "name": "authentication-passport",
+  "version": "1.0.0",
+  "description": "With a general landing page and an authenticated landing page",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/server.js",
+    "react": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midnightmarth/Authentication-Passport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midnightmarth/Authentication-Passport/issues"
+  },
+  "homepage": "https://github.com/midnightmarth/Authentication-Passport#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
+
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
